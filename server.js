@@ -7,7 +7,7 @@ app.use(cors());
 
 
 app.get('/', (req, res) => {
-  res.send({'Hello, this is your backend!'});
+  res.send({ message: 'Hello, this is your backend!'});
 });
 
 app.listen(port, () => {
